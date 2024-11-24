@@ -2,9 +2,12 @@
 	import Navbar from './navbar.svelte';
 	import Bienvenue from './bienvenue.svelte';
 	import Biographie from './biographie.svelte';
-	import Tools from './tools.svelte';
+	import Tools from './skillsTree.svelte';
 	import Musique from './musique.svelte';
 	import Contact from './contact.svelte';
+
+	import { skillsTree } from '$lib/skills';
+
 	import { ArrowDownToDot } from 'lucide-svelte';
 	import { fade } from 'svelte/transition';
 
@@ -38,7 +41,7 @@
 	});
 </script>
 
-<main class="bg-primary-500 font-openSans flex h-auto flex-col">
+<main class="bg-primary-500 font-openSans flex h-auto flex-col justify-center">
 	{#if showNavbar}
 		<div transition:fade={{ duration: 300 }}>
 			<Navbar />
@@ -50,6 +53,6 @@
 	<Bienvenue />
 	<Biographie />
 	<Musique />
-	<Tools />
+	<Tools node={skillsTree} />
 	<Contact />
 </main>
