@@ -7,10 +7,11 @@
 	>
 		<h1 class="mb-2 text-2xl font-bold">À propos</h1>
 		<p class="mt-2 text-justify font-normal">
-			Je suis compositeur de musique électronique et amateur de programmation. Je croise musique
-			classique et électronique expérimentale. Mon propos artistique est centré sur la physicalité
-			du son. Je recherche la capacité des instruments numériques à évoquer des imaginaires au delà
-			du réel.
+			Je compose de la musique électronique sous le nom d'_opal. Ce que j'aime dans la musique,
+			c'est créer des sonorités, les imbriquer les unes avec les autres et en tirer le plus
+			d'expressivité. Je travaille principalement avec mon ordinateur et quelques boîtes à musique
+			numériques. Dans ma pratique, j'explore la capacité de programmes numériques à imiter le réel
+			et à porter le sens que je lui donne.
 		</p>
 	</section>
 </main>
