@@ -1,8 +1,0 @@
-{
-    "redirects": [
-      { "source": "http://opal-sounds.com", "destination": "https://www.opal-sounds.com", "permanent": true },
-      { "source": "http://www.opal-sounds.com", "destination": "https://www.opal-sounds.com", "permanent": true },
-      { "source": "https://opal-sounds.com", "destination": "https://www.opal-sounds.com", "permanent": true }
-    ]
-  }
-  
