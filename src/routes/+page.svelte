@@ -8,8 +8,6 @@
 
 	import { skillsTree } from '$lib/skills';
 
-	import { Card } from '$lib/index';
-
 	import { ArrowDownToDot } from 'lucide-svelte';
 	import { fade } from 'svelte/transition';
 
@@ -61,5 +59,4 @@
 		</div>
 	</div>
 	<Contact />
-	<Card />
 </main>

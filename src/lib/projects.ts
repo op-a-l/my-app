@@ -2,7 +2,7 @@ import { AudioWaveform, Github, Podcast } from "lucide-svelte";
 
 export const projects = [
     {
-        id: 1,
+        id: 0,
         name: "Max::workspace",
         inLink: "./MaxWorkspace.svelte",
         outLink: "https://github.com/op-a-l/Max-workspace", 
@@ -10,7 +10,7 @@ export const projects = [
         icone: AudioWaveform
     },
     {
-        id: 2,
+        id: 1,
         name: "Le fait du prince", 
         inLink: "./FDP.svelte",
         outLink: "https://www.youtube.com/@LeFaitduPrince",
@@ -18,7 +18,7 @@ export const projects = [
         icone: Podcast
     },
     {
-        id: 3,
+        id: 2,
         name: "Développement",
         outLink: "https://github.com/op-a-l",
         text: "Je partage mon travail en développement sur github.",

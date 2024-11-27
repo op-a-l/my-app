@@ -2,14 +2,18 @@
 	import TreeNode from './skillsTree.svelte';
 	export let node;
 	export let level = 0;
+
+	function openCard() {}
 </script>
 
 <div class="m-3 flex h-auto w-full bg-opacity-50 pl-5 md:pl-10">
-	<div class="flex h-auto w-full flex-col">
+	<div class="w- flex h-auto flex-col">
 		<ul>
 			<li class="w-full font-mono">
 				{#if node.url}
-					<a href={node.url} target="_blank">{node.name}</a>
+					<button on:click={openCard()} class="btn">
+						{node.name}
+					</button>
 				{:else}
 					{node.name}
 				{/if}
@@ -24,7 +28,7 @@
 </div>
 
 <style>
-	a {
+	button {
 		text-decoration: underline;
 	}
 </style>
