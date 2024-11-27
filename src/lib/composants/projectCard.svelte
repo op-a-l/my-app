@@ -1,5 +1,6 @@
 <script lang="ts">
 	export let card;
+	export let cardVisible;
 </script>
 
 <div class="w-10">

@@ -3,7 +3,11 @@
 	export let node;
 	export let level = 0;
 
-	function openCard() {}
+	import { Card } from '$lib/index';
+
+	function openCard() {
+		const cardVisible = true;
+	}
 </script>
 
 <div class="m-3 flex h-auto w-full bg-opacity-50 pl-5 md:pl-10">
@@ -11,9 +15,7 @@
 		<ul>
 			<li class="w-full font-mono">
 				{#if node.url}
-					<button on:click={openCard()} class="btn">
-						{node.name}
-					</button>
+					{node.name}
 				{:else}
 					{node.name}
 				{/if}
