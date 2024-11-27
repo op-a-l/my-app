@@ -8,6 +8,8 @@
 
 	import { skillsTree } from '$lib/skills';
 
+	import { Card } from '$lib/index';
+
 	import { ArrowDownToDot } from 'lucide-svelte';
 	import { fade } from 'svelte/transition';
 
@@ -53,6 +55,11 @@
 	<Bienvenue />
 	<Biographie />
 	<Musique />
-	<Tools node={skillsTree} />
+	<div class="flex items-center justify-center">
+		<div class="flex h-auto w-4/5 items-center justify-center pb-10 md:w-2/6" id="tools">
+			<Tools node={skillsTree} />
+		</div>
+	</div>
 	<Contact />
+	<Card />
 </main>

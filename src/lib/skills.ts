@@ -3,36 +3,23 @@ export const skillsTree = {
     name: "_opal",
     children: [
       {
-        name: "Sound design",
+        name: "Composition",
         children: 
         [
-          { name: "Synthèse sonore", 
-            children: [
-              {name: "FM"}
-            ],
-          },
-          { name: "Digital sound processing", 
-            children: [
-              {name: "Max MSP"},
-              {name: "Bitwig"},
-            ],
+          { name: "transients - single", 
+            url: "https://on.soundcloud.com/23L2dqUf39AYWr327",
           },
         ],
       },
       
       {
-        name: "Analyse & Composition ",
+        name: "Techniques sonores",
         children: [
           { 
-            name: "Electronique",
-            url: "https://on.soundcloud.com/SKAU8Mg5fSCu6zCf8",
+            name: "Le fait du prince",
+            url: "https://www.youtube.com/@LeFaitduPrince",
+            desc: "Nettoyage et prémontage sur les épisodes 2, 3 & 4"
           },
-          {
-            name: "Baroque",
-          },
-          { 
-            name: "Acoustique", 
-            children: ["Musique concrète", "Rock progressif"] },
         ],
       },
 
@@ -40,16 +27,17 @@ export const skillsTree = {
         name: "Programmation",
         children: 
         [
-            { name: "Max MSP", 
-              children: [
-                {name: "Node for Max"},
-                {name: "Externals js"}
-              ]
+            { name: "Max::workspace", 
+              url: "https://github.com/op-a-l/Max-workspace",
+              desc: "Dépôt github regroupant des outils de musique open source pour Max 8 et 9"
             },
-            { name: "web",
-              children: [
-                {name: "Sveltekit"},
-                {name: "Wordpress"},
+            { name: "Web",
+              children: 
+              [
+                { 
+                  name: "opal-sounds.com",
+                  desc: "J'ai codé ce site avec Sveltekit"
+                },
               ]
             },
         ],
