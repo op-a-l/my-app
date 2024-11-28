@@ -4,10 +4,6 @@
 	export let level = 0;
 
 	import { Card } from '$lib/index';
-
-	function openCard() {
-		const cardVisible = true;
-	}
 </script>
 
 <div class="m-3 flex h-auto w-full bg-opacity-50 pl-5 md:pl-10">
@@ -28,9 +24,3 @@
 		</ul>
 	</div>
 </div>
-
-<style>
-	button {
-		text-decoration: underline;
-	}
-</style>
