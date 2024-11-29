@@ -21,7 +21,7 @@ export const projects = [
 	{
 		id: 'max-workspace',
 		name: 'Max::workspace',
-		text: 'Max::workspace est un ensemble de patches Max open source accessibles gratuitement depuis github. Le dépôt github "Max-workspace" contient des modules Max, des scripts js et node.js et des applications développées à partir de ces modles. Le dépôt est sous licence creative commons, les détails pour utiliser mes outils sont disponibles sur le README.md depuis github.',
+		text: 'Max::workspace est un ensemble de patches Max open source accessibles gratuitement depuis github. Le dépôt github "Max-workspace" contient des modules Max, des scripts js et node.js et des applications développées à partir de ces modules. Le dépôt est sous licence creative commons, les détails pour utiliser mes outils sont disponibles sur le README.md depuis github.',
 		link: 'https://github.com/op-a-l/Max-workspace',
 		icone: AudioWaveform,
 		imageSrc: '/maxImage.png',
