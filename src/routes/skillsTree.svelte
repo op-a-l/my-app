@@ -2,14 +2,16 @@
 	import TreeNode from './skillsTree.svelte';
 	export let node;
 	export let level = 0;
+
+	import { Card } from '$lib/index';
 </script>
 
 <div class="m-3 flex h-auto w-full bg-opacity-50 pl-5 md:pl-10">
-	<div class="flex h-auto w-full flex-col">
+	<div class="w- flex h-auto flex-col">
 		<ul>
 			<li class="w-full font-mono">
 				{#if node.url}
-					<a href={node.url} target="_blank">{node.name}</a>
+					{node.name}
 				{:else}
 					{node.name}
 				{/if}
@@ -22,9 +24,3 @@
 		</ul>
 	</div>
 </div>
-
-<style>
-	a {
-		text-decoration: underline;
-	}
-</style>
