@@ -39,7 +39,7 @@ export const projects = [
 		name: 'this.website',
 		subtitle: 'opal-sounds.com',
 		text: "Je développe et maintiens ce site web. J'apprend le développement web et j'utilise mon portfolio web comme le lieu de toutes mes expérimentations en termes de conception d'interface utilisateur et de design. Je ne suis certainement pas le développeur le plus performant mais j'éprouve un grand plaisir à développer mon site et mon workflow de programmation.",
-		link: 'https://github.com/op-a-l',
+		link: 'https://github.com/op-a-l/my-app',
 		icone: Github
 	},
 	{
