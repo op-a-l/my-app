@@ -3,7 +3,7 @@
 
 	import { visibleCard } from '$lib/index';
 
-	function setCardId(idToSet: number) {
+	function setCardId(idToSet: string) {
 		visibleCard.set(idToSet);
 	}
 </script>
@@ -13,7 +13,7 @@
 	id="musique"
 >
 	<div
-		class=" justify-left flex w-full flex-col gap-1 rounded-lg p-4 px-10 py-6 shadow-inner transition-all duration-500 hover:shadow-lg md:w-3/5 lg:w-2/5"
+		class=" justify-left flex w-full flex-col gap-1 rounded-2xl p-4 px-10 py-6 shadow-inner transition-all duration-500 md:w-3/5 lg:w-2/5"
 	>
 		<h1 class="mb-5 mt-3 text-3xl">Projets</h1>
 		<ul class="list w-1/1 flex flex-col gap-2">
@@ -23,7 +23,7 @@
 						on:click={() => {
 							setCardId(id);
 						}}
-						class="hover:bg-secondary-500 flex w-full flex-row justify-between rounded-md p-1 px-3 py-2 transition-all hover:shadow-lg"
+						class="flex w-full flex-row justify-between rounded-md p-1 px-3 py-2 transition-all duration-300 hover:-translate-x-2 hover:-translate-y-2 hover:bg-transparent hover:shadow-md"
 					>
 						<div>
 							{name}

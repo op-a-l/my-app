@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { Card } from '$lib/index';
 
-	import { visibleCard, projects } from '$lib/index';
+	import { visibleCard, projects, getProjectById } from '$lib/index';
 
 	import { fade } from 'svelte/transition';
 
@@ -19,6 +19,6 @@
 
 {#if visibleId !== null}
 	<div class="fixed top-0 z-10 w-full" transition:fade={{ duration: 100 }}>
-		<Card card={projects[visibleId]} />
+		<Card card={getProjectById(visibleId)} />
 	</div>
 {/if}

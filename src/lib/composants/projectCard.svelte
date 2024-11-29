@@ -7,10 +7,6 @@
 
 	let name = null;
 
-	function setActive(cardId: number) {
-		visibleCard.set(cardId);
-	}
-
 	function closeCard() {
 		visibleCard.set(null);
 	}
@@ -33,13 +29,13 @@
 				</h3>
 			{/if}
 			{#if card.imageSrc}
-				<div class="h-24 overflow-hidden bg-red-500">
+				<div class="my-3 h-24 overflow-hidden bg-red-500">
 					<img src={card.imageSrc} alt={card.imageAlt} class="h-full w-full object-cover" />
 				</div>
 			{:else}
 				<hr />
 			{/if}
-			<p class="mb-4 mt-3 px-3">
+			<p class="mx-5 mb-4 mt-3 max-h-60 overflow-scroll px-3 md:text-justify">
 				{card.text}
 			</p>
 			{#if card.link}
