@@ -16,12 +16,12 @@
 	}
 </script>
 
-<div class="flex h-screen w-full items-center justify-center bg-transparent backdrop-blur-sm">
+<div class="flex h-screen w-full items-center justify-center bg-transparent backdrop-blur-lg">
 	<div class="flex w-2/3 flex-col items-center justify-center md:w-2/6">
 		<div
 			class="bg-secondary-100 font-openSans relative w-auto rounded-lg border-2 border-solid border-black py-5 shadow-2xl"
 		>
-			<button class="btn absolute right-4 top-5" on:click={closeCard}>
+			<button class="btn absolute right-1 top-2 md:right-4 md:top-4" on:click={closeCard}>
 				<X />
 			</button>
 			<h2 class="px-3 text-xl font-extrabold">
@@ -39,12 +39,12 @@
 			{:else}
 				<hr />
 			{/if}
-			<p class="mt-3 px-3">
+			<p class="mb-4 mt-3 px-3">
 				{card.text}
 			</p>
 			{#if card.link}
 				<div class="pl-3">
-					<a href={card.link}>lien sortant</a>
+					<a href={card.link} class="font-mono underline" target="_blank">Lien externe</a>
 				</div>
 			{/if}
 		</div>

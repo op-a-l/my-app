@@ -18,7 +18,7 @@
 </script>
 
 {#if visibleId !== null}
-	<div class="fixed top-0 z-10 w-full">
+	<div class="fixed top-0 z-10 w-full" transition:fade={{ duration: 100 }}>
 		<Card card={projects[visibleId]} />
 	</div>
 {/if}
