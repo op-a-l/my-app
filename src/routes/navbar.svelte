@@ -11,8 +11,6 @@
 			<li><a href="#biographie" class="underline">1</a></li>
 			<p>·</p>
 			<li><a href="#musique" class="underline">2</a></li>
-			<p>·</p>
-			<li><a href="#tools" class="underline">3</a></li>
 		</ul>
 	</nav>
 </main>

@@ -41,11 +41,5 @@ export const projects = [
 		text: "Je développe et maintiens ce site web. J'apprend le développement web et j'utilise mon portfolio web comme le lieu de toutes mes expérimentations en termes de conception d'interface utilisateur et de design. Je ne suis certainement pas le développeur le plus performant mais j'éprouve un grand plaisir à développer mon site et mon workflow de programmation.",
 		link: 'https://github.com/op-a-l/my-app',
 		icone: Github
-	},
-	{
-		id: 'organic-music',
-		name: 'organic-music',
-		text: 'organic-music est un projet musical regroupant plusieurs musiques dans une esthétique organique.',
-		icone: TreeDeciduous
 	}
 ];
