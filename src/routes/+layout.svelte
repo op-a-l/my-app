@@ -14,7 +14,7 @@
 		name="keywords"
 		content="musique, électronique, rennes, art, artiste, composition, sound design"
 	/>
-	<link rel="canonical" href="https://www.opal-sounds.com/" />
+	<link rel="canonical" href="https://www.opal-sounds.com" />
 </svelte:head>
 
 {@render children()}
