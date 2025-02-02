@@ -1,5 +1,5 @@
 import type { link } from 'fs';
-import { AudioWaveform, Github, Podcast, TreeDeciduous } from 'lucide-svelte';
+import { AudioWaveform, Github, Podcast, TreeDeciduous, Speaker } from 'lucide-svelte';
 import type { SvelteComponent } from 'svelte';
 
 export const getProjectById = (id: string) => {
@@ -18,6 +18,15 @@ export interface Project {
 }
 
 export const projects = [
+	{
+		id: 'soundcloud',
+		name: 'Compositions originales',
+		text: 'Une partie de mon travail consiste en l\'arrangement musical des sons que je fabrique. En général, je fabrique l\'intégralité des sons dans ma musique à partir d\'enregistrements et des outils de synthèse sonore basiques fournis par mon logiciel, Bitwig.',
+		icone: Speaker, 
+		link: 'https://soundcloud.com/tournesol-840734247/tracks',
+		imageSrc: '/musiqueImage.png',
+		imageAlt: 'vue d\'un sonagramme représentant du son visuelement.'
+	},
 	{
 		id: 'max-workspace',
 		name: 'Max::workspace',
