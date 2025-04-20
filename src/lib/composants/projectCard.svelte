@@ -40,7 +40,7 @@
 			</p>
 			{#if card.link}
 				<div class="pl-5">
-					<a href={card.link} class="font-humanist underline" target="_blank">Lien externe</a>
+					<a href={card.link} class="font-humanist underline" target="_blank">External link</a>
 				</div>
 			{/if}
 		</div>
