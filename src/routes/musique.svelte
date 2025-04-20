@@ -15,7 +15,7 @@
 	<div
 		class=" justify-left flex w-full flex-col gap-1 rounded-2xl p-4 px-10 py-6 shadow-inner transition-all duration-500 md:w-3/5 lg:w-2/5"
 	>
-		<h1 class="mb-5 mt-3 text-3xl">Projets</h1>
+		<h1 class="mb-5 mt-3 text-3xl">Projects</h1>
 		<ul class="list w-1/1 flex flex-col gap-2">
 			{#each projects as { name, link, icone: Icon, id } (name)}
 				<li>

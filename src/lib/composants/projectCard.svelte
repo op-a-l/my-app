@@ -17,7 +17,7 @@
 		<div
 			class="bg-secondary-100 font-openSans relative w-auto rounded-lg border-2 border-solid border-black py-5 shadow-2xl"
 		>
-			<button class="btn absolute right-1 top-2 md:right-4 md:top-4" on:click={closeCard}>
+			<button class="btn absolute right-1 top-2 md:right-4 md:top-3" on:click={closeCard}>
 				<X />
 			</button>
 			<h2 class="px-3 text-xl font-extrabold">
@@ -35,12 +35,12 @@
 			{:else}
 				<hr />
 			{/if}
-			<p class="mx-5 mb-4 mt-3 max-h-60 overflow-scroll px-3 md:text-justify">
+			<p class="mx-5 mb-4 mt-4 max-h-60 overflow-scroll px-3 md:text-justify">
 				{card.text}
 			</p>
 			{#if card.link}
-				<div class="pl-3">
-					<a href={card.link} class="font-mono underline" target="_blank">Lien externe</a>
+				<div class="pl-5">
+					<a href={card.link} class="font-humanist underline" target="_blank">Lien externe</a>
 				</div>
 			{/if}
 		</div>

@@ -4,9 +4,9 @@
 
 <main class="align-center flex h-screen flex-col items-center">
 	<section class="items-left flex h-screen w-auto flex-col justify-center p-10">
-		<h1 class="text-md md:text-2xl">Bonjour, je suis</h1>
+		<h1 class="text-md md:text-2xl">HI, I am</h1>
 		<h1 class="font-humanist text-3xl font-bold md:text-5xl">_opal</h1>
-		<h1 class="text-md md:text-2xl">compositeur et sound designer</h1>
+		<h1 class="text-md md:text-2xl">composer and sound designer</h1>
 	</section>
 	<section class="fixed bottom-20 md:bottom-10 z-50 flex-row gap-2 flex w-full justify-center">
 		<audio controls class="rounded-lg shadow-lg w-1/2">

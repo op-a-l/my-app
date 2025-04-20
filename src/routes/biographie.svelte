@@ -5,14 +5,11 @@
 	<section
 		class="border-surface-500 mb-16 flex h-auto w-full flex-col border-0 border-solid p-10 shadow-2xl transition-all duration-200 hover:rounded-2xl md:w-3/5 md:border-2 lg:w-2/5"
 	>
-		<h1 class="mb-2 text-2xl font-bold">À propos</h1>
+		<h1 class="mb-2 text-2xl font-bold">About</h1>
 		<p class="mt-2 text-justify font-normal">
-			Je compose de la musique électronique sous le nom d'<b
+			I compose under the name <b
 				class="border-5 rounded-full p-2 px-4 py-2 shadow-inner">_opal</b
-			>. Ce que j'aime dans la musique, c'est créer des sonorités, les imbriquer les unes avec les
-			autres et en tirer le plus d'expressivité. Je travaille principalement avec mon ordinateur et
-			quelques boîtes à musique numériques. Dans ma pratique, j'explore la capacité de programmes
-			numériques à imiter le réel et à porter le sens que je lui donne.
+			>. I explore how digital environments can evoke, transform and reinvent reality. Whether through synths presets, Max patches or recorded textures, I aim to create expressive and sensitive sounds rooted in listening.
 		</p>
 	</section>
 </main>

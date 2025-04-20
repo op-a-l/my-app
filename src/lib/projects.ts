@@ -20,34 +20,34 @@ export interface Project {
 export const projects = [
 	{
 		id: 'soundcloud',
-		name: 'Compositions originales',
-		text: 'Une partie de mon travail consiste en l\'arrangement musical des sons que je fabrique. En général, je fabrique l\'intégralité des sons dans ma musique à partir d\'enregistrements et des outils de synthèse sonore basiques fournis par mon logiciel, Bitwig.',
-		icone: Speaker, 
+		name: 'Composition',
+		text: 'Part of my work involves arranging the sounds I create into musical compositions. I usually design all the elements in my music from recordings and the basic synthesis tools available in Bitwig.',
+		icone: Speaker,
 		link: 'https://soundcloud.com/tournesol-840734247/tracks',
 		imageSrc: '/musiqueImage.png',
-		imageAlt: 'vue d\'un sonagramme représentant du son visuelement.'
+		imageAlt: 'view of a spectrogram visually representing sound.'
 	},
 	{
 		id: 'max-workspace',
 		name: 'Max::workspace',
-		text: 'Max::workspace est un ensemble de patches Max open source accessibles gratuitement depuis github. Le dépôt github "Max-workspace" contient des modules Max, des scripts js et node.js et des applications développées à partir de ces modules. Le dépôt est sous licence creative commons, les détails pour utiliser mes outils sont disponibles sur le README.md depuis github.',
+		text: 'Max::workspace is a collection of open-source Max patches available for free on GitHub. The "Max-workspace" repository includes Max modules, JavaScript and Node.js scripts, and apps built from those modules. It’s released under a Creative Commons license — usage details are available in the README.md on GitHub.',
 		link: 'https://github.com/op-a-l/Max-workspace',
 		icone: AudioWaveform,
 		imageSrc: '/maxImage.png',
-		imageAlt: "capture d'écran de deux outils développés à partir de mes modules Max"
+		imageAlt: "screenshot of two tools built with my Max modules"
 	},
 	{
 		id: 'le-fait-du-prince',
 		name: 'Le fait du prince',
-		text: 'Le Fait du Prince est une série audio écrite et réalisée par Solva et Alcaz du Catboat. Je travaille sur le nettoyage et le prémontage des rushes audio sur la première saison.',
+		text: 'Le Fait du Prince is an audio series written and directed by Solva and Alcaz from Catboat. I worked on cleaning and pre-editing the audio rushes for the first season.',
 		link: 'https://www.youtube.com/@LeFaitduPrince',
 		icone: Podcast
 	},
 	{
 		id: 'developpement',
 		name: 'this.website',
-		subtitle: 'opal-sounds.com',
-		text: "Je développe et maintiens ce site web. J'apprend le développement web et j'utilise mon portfolio web comme le lieu de toutes mes expérimentations en termes de conception d'interface utilisateur et de design. Je ne suis certainement pas le développeur le plus performant mais j'éprouve un grand plaisir à développer mon site et mon workflow de programmation.",
+		subTitle: 'opal-sounds.com',
+		text: "I design and maintain this website. I’m learning web development and use my portfolio as a playground for experimenting with UI and design concepts. I’m not the most efficient developer, but I love crafting my site and refining my creative workflow through code.",
 		link: 'https://github.com/op-a-l/my-app',
 		icone: Github
 	}

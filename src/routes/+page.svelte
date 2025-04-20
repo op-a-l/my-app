@@ -4,6 +4,7 @@
 	import Biographie from './biographie.svelte';
 	import Tools from './skillsTree.svelte';
 	import Musique from './musique.svelte';
+	import Services from './services.svelte';
 	import Contact from './contact.svelte';
 	import Card from './cardDisplayer.svelte';
 
@@ -50,6 +51,7 @@
 	<Bienvenue />
 	<Biographie />
 	<Musique />
+	<Services />
 
 	<!-- <div class="flex items-center justify-center">
 		<div class="flex h-auto w-4/5 items-center justify-center pb-10 md:w-2/6" id="tools">
